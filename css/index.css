@@ -8,10 +8,12 @@ body,html{
 }
 body{
     background: #4776E6;
-    background: -webkit-linear-gradient(to left, #8E54E9, #4776E6);
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);
     background: linear-gradient(to right, #8E54E9, #4776E6);
     line-height: 1.7;
     -webkit-font-smoothing: antialiased;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
 
 }
 header{
@@ -31,7 +33,7 @@ header{
 }
 #logo{
     position: relative;
-    top: 5px;
+    top: 10px;
     left: 150px;
     font-family: 'Fredoka One', cursive;
     font-size: 27px;
@@ -40,4 +42,75 @@ header{
 #logo_col_change{
     color: #30E3CA;
     margin-left: 3px;
+}
+#contents{
+    position: relative;
+    max-width: 900px;
+    height: 60px;
+    background: #fff;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 1000px;
+    font-size: 18px;
+}
+#table{
+    position: relative;
+    height: auto;
+    width: auto;
+    text-align: center;
+    top: 14px;
+}
+#table li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #576366;
+}
+#table li:first-child{
+    padding-left: 0;
+}
+#table li:last-child{
+    padding-right: 0;
+}
+#first_page{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#text_container{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+#big_text{
+    position: relative;
+    color: #fff;
+    font-size: 85px;
+    font-family: 'Prompt', sans-serif;
+    top: 140px;
+    text-shadow: 1px 1px 2px #4776E6;
+}
+.padd_dot{
+    position: relative;
+    padding: 0 20px;
+}
+#small_text{
+    position: relative;
+    top: 160px;
+    font-size: 22px;
+}
+#image_container{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+#shoe_image{
+    position: relative;
+    width: 450px;
+    padding-left: 90px;
+    top: 120px;
 }
